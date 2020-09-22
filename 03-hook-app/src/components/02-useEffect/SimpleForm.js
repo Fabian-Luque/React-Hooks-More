@@ -7,15 +7,12 @@ export const SimpleForm = () => {
     const [formState, setFormState] = useState({
         name: '',
         email: ''
-    })
+    });
 
     const { name, email } = formState;
 
     useEffect( () => {
-        
         // console.log('hey!!');
-
-
     }, []);
 
     useEffect( () => {
